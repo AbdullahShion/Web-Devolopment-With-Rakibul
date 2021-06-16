@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="ptag">This is HTML</p>
+                <button type="button" onclick="myfunction()"> Click me</button>
+
+                <script>
+                    function myfunction(){
+                        document.getElementById("ptag").innerHTML=" This is from javascript";
+                    }
+                </script>
+                <form action="useraccount.php" method="get">
+                    <label for="UserName">UserName</label> <br>
+                    <input id="UserName" type="text">
+                    <br>
+
+                    <label for="Password">Password</label> <br>
+                    <input type="Password" name="Password" id="password">
+
+                    <label for="Gender"></label> <br>
+                    Male
+                    <input type="radio" name="gender" value="Male" id="gender">
+                    Female
+                    <input type="radio" name="gender" value="Male" id="gender">
+                
+
+                <br>
+                <input type="Submit" value="submit" >
+            </form>
+                
+</body>
+</html>
