@@ -1,4 +1,22 @@
 p{
     color: brown;
     background-color: chartreuse;
+
+}
+
+#p2{
+    color: blanchedalmond;
+    background-color: blue;
+
+}
+#Simpleclass{
+    color: cornflowerblue;
+    background-color: darkkhaki;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+
+
 }
